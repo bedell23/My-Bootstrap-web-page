@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.color-section {
+  background-color: #44cccc;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "ubuntu";
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* download button */
+.d-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* title img */
+.first-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* feature section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* font awesome */
+.icon {
+  color: #4ab4b4;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #44cccc;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testa-img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 1.2rem;
+}
+
+#press {
+  padding-bottom: 4%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  background-color: #fff;
+}
+
+.footer-icon {
+  margin: 1.2rem 0.7rem;
+}
+
+/* media query section */
+@media (max-width: 1040px) {
+  #title {
+    text-align: center;
+  }
+
+  .first-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
